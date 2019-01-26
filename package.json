@@ -2,13 +2,13 @@
   "name": "autocomplete-unity",
   "main": "./lib/main",
   "version": "0.2.0",
-  "description": "Boilerplate package for creating your own custom autocomplete provider for Atom.",
+  "description": "Autocomplete for Unity (game engine).",
   "keywords": [
     "autocomplete",
     "provider",
     "unity"
   ],
-  "repository": "https://github.com/lonekorean/autocomplete-unity",
+  "repository": "https://github.com/thiagola92/autocomplete-unity",
   "author": "ThiagoLA92 <thiagola92@gmail.com>",
   "license": "MIT",
   "engines": {

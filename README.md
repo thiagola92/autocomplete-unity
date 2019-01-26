@@ -18,4 +18,4 @@ Utilizando o [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-
 > 
 > Don't forget to reload Atom when you make changes!
 > - On Mac, hit `ctrl` + `option` + `command` + `L`.
-> - On Windows, hit `ctrl` + `shift` + `F5`.
+> - On Windows/Ubuntu, hit `ctrl` + `shift` + `F5`.

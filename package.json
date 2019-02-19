@@ -1,7 +1,7 @@
 {
   "name": "autocomplete-unity",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "Autocomplete for Unity (game engine).",
   "keywords": [
     "autocomplete",
@@ -20,5 +20,21 @@
         "2.0.0": "getProvider"
       }
     }
+  },
+  "configSchema": {
+    "api": {
+      "title": "API version",
+      "description": "Close and open atom to refresh (ctrl-shift-F5)",
+      "type": "string",
+      "default": "2019.1b",
+      "enum": [
+        "2019.1b",
+        "2018.3",
+        "2017.4"
+      ]
+    }
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }

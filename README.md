@@ -2,23 +2,39 @@
 
 Unity autocomplete.  
 
+![autocomplete-unity example](img/example.png)
+
 Using [atom-autocomplete-boilerplate](https://github.com/lonekorean/atom-autocomplete-boilerplate) as base.  
 
 ## Installation
+There are several ways to install depending on what you prefer
 
- Atom provides a built-in way to download and install packages, but for local development, you'll want to do it this way.
+#### Atom installation
+* In Atom, you should search for the package *autocomplete-unity* and install.
+  * On Mac, you'll find it under Atom &gt; Preferences... &gt; Install.
+  * On Windows, you'll find it under File &gt; Settings &gt; Install.
+  * On Ubuntu, you'll find it under Edit &gt; Preferences &gt; Install.
 
-1. Clone this repo.
-2. Make sure you have apm installed.
-  - On Mac, you might need to start Atom and go to Atom &gt; Install Shell Commands.
-  - On Windows/Ubuntu, it's probably already there.
-3. Open your terminal, navigate into the repo directory, then run `apm link`.
-4. Back in Atom, you should now see autocomplete-unity installed.
-  - On Mac, you'll find it under Atom &gt; Preferences... &gt; Packages &gt; Community Packages.
-  - On Windows, you'll find it under File &gt; Settings &gt; Packages &gt; Community Packages.
-  - On Ubuntu, you'll find it under Edit &gt; Preferences &gt; Packages &gt; Community Packages.
+#### Terminal installation
+* Make sure you have apm installed.
+  * On Mac, you might need to start Atom and go to Atom &gt; Install Shell Commands.
+  * On Windows/Ubuntu, it's probably already there.
+* Open your terminal, then run `apm install autocomplete-unity`.
 
+#### Development installation
+* Clone this repo.
+* Make sure you have apm installed.
+  * On Mac, you might need to start Atom and go to Atom &gt; Install Shell Commands.
+  * On Windows/Ubuntu, it's probably already there.
+* Open your terminal, navigate into the repo directory, then run `apm link`.
 
-Don't forget to reload Atom when you make changes!
-- On Mac, hit `ctrl` + `option` + `command` + `L`.
-- On Windows/Ubuntu, hit `ctrl` + `shift` + `F5`.
+**Observation**  
+* Don't forget to reload Atom when you make changes!
+  * On Mac, hit `ctrl` + `option` + `command` + `L`.
+  * On Windows/Ubuntu, hit `ctrl` + `shift` + `F5`.
+
+#### Installed
+* In Atom, you should now see *autocomplete-unity* installed.
+  * On Mac, you'll find it under Atom &gt; Preferences... &gt; Packages &gt; Community Packages.
+  * On Windows, you'll find it under File &gt; Settings &gt; Packages &gt; Community Packages.
+  * On Ubuntu, you'll find it under Edit &gt; Preferences &gt; Packages &gt; Community Packages.  
